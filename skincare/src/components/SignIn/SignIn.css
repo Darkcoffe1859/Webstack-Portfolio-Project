@@ -1,0 +1,29 @@
+/* src/components/SignIn/SignIn.css */
+.signin {
+    padding: 20px;
+    text-align: center;
+}
+
+.signin form {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.signin input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+}
+
+.signin button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.signin button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,13 @@
+/* src/components/Cart/Cart.css */
+.cart {
+    padding: 20px;
+    text-align: center;
+}
+
+.cart h2 {
+    color: #343a40;
+}
+
+.cart p {
+    font-size: 18px;
+}

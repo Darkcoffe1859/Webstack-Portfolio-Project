@@ -1,0 +1,8 @@
+/* src/components/ProductList/ProductList.css */
+.product-list {
+    padding: 20px;
+}
+
+.product-list h2 {
+    color: #343a40;
+}
