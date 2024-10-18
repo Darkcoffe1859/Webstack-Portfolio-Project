@@ -1,4 +1,4 @@
-/* Home.css */
+/* src/components/Home/Home.css */
 .home-container {
     background-image: url('https://images.pexels.com/photos/2661255/pexels-photo-2661255.jpeg');
     background-size: cover;
@@ -8,7 +8,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     text-align: center;
+    color: white; /* Text color */
+}
+
+h2 {
+    font-family: 'Playfair Display', serif; /* Font for headings */
+    font-size: 3rem; /* Increased font size for the heading */
+}
+
+p {
+    font-family: 'Lora', serif; /* Font for paragraph */
+    font-size: 1.5rem; /* Increased font size for the paragraph */
 }
 
