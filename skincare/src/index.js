@@ -2,6 +2,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client'; // Import createRoot from 'react-dom/client'
 import Router from './Router';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import './App.css';
 
 const container = document.getElementById('root'); // Get the root element

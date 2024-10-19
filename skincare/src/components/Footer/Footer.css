@@ -1,13 +1,53 @@
 /* src/components/Footer/Footer.css */
 .footer {
-    background-color: #f8f9fa;
-    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
     text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
-.footer p {
-    margin: 0;
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.footer-content p {
+    margin-bottom: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #fff; /* Default white color */
+    font-size: 24px;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+}
+
+.social-icons .fa-facebook-f {
+    color: #1877F2; /* Facebook dark blue */
+}
+
+.social-icons .fa-twitter {
+    color: #1DA1F2; /* Twitter light blue */
+}
+
+.social-icons .fa-instagram {
+    background: radial-gradient(circle at 30% 107%, 
+      #fdf497 0%, 
+      #fdf497 5%, 
+      #fd5949 45%, 
+      #d6249f 60%, 
+      #285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
