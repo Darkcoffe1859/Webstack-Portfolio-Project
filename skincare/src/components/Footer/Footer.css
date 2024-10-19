@@ -1,4 +1,4 @@
-/* src/components/Footer/Footer.css */
+
 .footer {
     background-color: #333;
     color: #fff;
@@ -23,21 +23,21 @@
 }
 
 .social-icons a {
-    color: #fff; /* Default white color */
+    color: #fff; 
     font-size: 24px;
-    transition: color 0.3s ease; /* Smooth hover effect */
+    transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-    transform: scale(1.2); /* Slight zoom on hover */
+    transform: scale(1.2);
 }
 
 .social-icons .fa-facebook-f {
-    color: #1877F2; /* Facebook dark blue */
+    color: #1877F2; 
 }
 
 .social-icons .fa-twitter {
-    color: #1DA1F2; /* Twitter light blue */
+    color: #1DA1F2; 
 }
 
 .social-icons .fa-instagram {

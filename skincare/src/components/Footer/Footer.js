@@ -1,4 +1,4 @@
-// src/components/Footer/Footer.js
+
 import React from 'react';
 import './Footer.css';
 
@@ -11,11 +11,11 @@ const Footer = () => {
             <div className="footer-content">
                 <p>&copy; {currentYear} Skincare Brand. All rights reserved.</p>
                 <div className="social-icons">
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://facebook.com/Coffe nuit" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-facebook-f"></i>
                     </a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-twitter"></i>
+                    <a href="https://twitter.com/Darkcoffe89" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-twitter/dark_coffe23"></i>
                     </a>
                     <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-instagram"></i>
