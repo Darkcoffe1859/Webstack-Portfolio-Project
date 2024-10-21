@@ -1,26 +1,22 @@
-/* src/components/ProductCard/ProductCard.css */
-.product-card {
-    border: 1px solid #dee2e6;
+.add-to-cart-btn {
+    background-color: #274C77;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
     border-radius: 5px;
-    padding: 15px;
-    margin: 10px;
-    text-align: center;
-    transition: transform 0.2s;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.product-card:hover {
-    transform: scale(1.05);
+.add-to-cart-btn i {
+    margin-right: 8px; /* Adds spacing between the icon and the text */
 }
 
-.product-card img {
-    max-width: 100%;
-    height: auto;
+.add-to-cart-btn:hover {
+    background-color: #1f3a5b;
 }
 
-.product-card h3 {
-    margin: 10px 0;
-}
-
-.product-card p {
-    color: #6c757d;
-}

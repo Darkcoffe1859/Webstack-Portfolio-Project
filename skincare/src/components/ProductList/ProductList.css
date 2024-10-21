@@ -1,8 +1,16 @@
 /* src/components/ProductList/ProductList.css */
+
 .product-list {
-    padding: 20px;
+    padding: 2rem;
 }
 
-.product-list h2 {
-    color: #343a40;
+.category-filter {
+    margin-bottom: 1.5rem;
 }
+
+.product-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
