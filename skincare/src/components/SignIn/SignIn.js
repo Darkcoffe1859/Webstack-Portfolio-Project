@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../../firebase'; // Ensure path is correct
+import { auth } from '../../firebase'; // Ensure this path is correct
 import './SignIn.css';
 
 const SignIn = () => {
@@ -18,7 +18,8 @@ const SignIn = () => {
             await signInWithEmailAndPassword(auth, email, password);
             navigate('/'); // Navigate to the home page after successful login
         } catch (error) {
-            setError('Failed to sign in. Please check your credentials.');
+            console.error("Error signing in:", error); // Log detailed error
+            setError(error.message); // Show Firebase error message
         }
     };
 

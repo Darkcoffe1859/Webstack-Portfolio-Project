@@ -9,7 +9,7 @@ const ProductList = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await axios.get('https://7512ef03-5545-42af-9b8f-9498e05506b1.mock.pstmn.io/PRODUCTS');
+                const response = await axios.get('https://7512ef03-5545-42af-9b8f-9498e05506b1.mock.pstmn.io');
                 setProducts(response.data); // Ensure this is an array
             } catch (error) {
                 console.error('Error fetching products:', error);

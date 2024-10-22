@@ -1,23 +1,28 @@
 // src/firebase.js
+
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import { getAuth } from "firebase/auth"; // Import getAuth
+import { getFirestore } from "firebase/firestore"; // Import Firestore
+import { getAuth } from "firebase/auth"; // Import Auth
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAAxu77YtgpD4Tq5w-Wcw0OeMGf2bfWSB0",
-  authDomain: "portfolio-71e36.firebaseapp.com",
-  projectId: "portfolio-71e36",
-  storageBucket: "portfolio-71e36.appspot.com",
-  messagingSenderId: "73367674325",
-  appId: "1:73367674325:web:ad682dac098d3dd75bb15c",
-  measurementId: "G-VR56BDMDZB"
+  apiKey: "AIzaSyAia3TSn1JYjCbKo1-W8QSPxLE7HBrUkWU",
+  authDomain: "portfolio-ccf46.firebaseapp.com",
+  projectId: "portfolio-ccf46",
+  storageBucket: "portfolio-ccf46.appspot.com",
+  messagingSenderId: "392107103425",
+  appId: "1:392107103425:web:811c6f670bfef70ef5f040",
+  measurementId: "G-GQ27SKGVYV"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-const auth = getAuth(app); // Initialize auth
+const analytics = getAnalytics(app); // Initialize Analytics
+const db = getFirestore(app); // Initialize Firestore
+const auth = getAuth(app); // Initialize Auth
 
-export { auth }; // Make sure to export auth here
+// Export the db and auth to use in your app
+export { db, auth };
 
