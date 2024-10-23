@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import ProductCard from '../ProductCard/ProductCard';
-
+import ProductCard from '../ProductCard/ProductCard'; // Ensure this path is correct
 
 const ProductList = () => {
     const [products, setProducts] = useState([]);
@@ -9,8 +7,9 @@ const ProductList = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await axios.get('https://7512ef03-5545-42af-9b8f-9498e05506b1.mock.pstmn.io');
-                setProducts(response.data); // Ensure this is an array
+                const response = await fetch('/data/products.json'); // Fetch from the public folder
+                const data = await response.json();
+                setProducts(data); // Set the fetched data
             } catch (error) {
                 console.error('Error fetching products:', error);
             }
@@ -33,4 +32,3 @@ const ProductList = () => {
 };
 
 export default ProductList;
-
