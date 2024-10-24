@@ -1,9 +1,9 @@
 // src/components/Cart/Cart.js
 import React from 'react';
-import { useCart } from '../../CartContext';
+import { useCart } from '../../CartContext'; // Import the useCart hook
 
 const Cart = () => {
-    const { cart, removeFromCart } = useCart();
+    const { cart, removeFromCart } = useCart(); // Get cart and removeFromCart from context
 
     return (
         <div className="cart">
@@ -25,4 +25,3 @@ const Cart = () => {
 };
 
 export default Cart;
-

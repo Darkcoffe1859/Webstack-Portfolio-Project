@@ -1,3 +1,4 @@
+// src/AppRouter.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
@@ -7,9 +8,8 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import SignIn from './components/SignIn/SignIn';
 import SignUp from './components/SignUp/SignUp';
-import Cart from './components/Cart/Cart';
+import Cart from './components/Cart/Cart'; // Ensure Cart component is imported
 import ProductList from './components/ProductList/ProductList';
-import ProtectedRoute from './components/ProtectedRoute'; // Import your ProtectedRoute
 
 const AppRouter = () => {
     return (
@@ -17,28 +17,13 @@ const AppRouter = () => {
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/products" element={<ProductList />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/signin" element={<SignIn />} />
                 <Route path="/signup" element={<SignUp />} />
-
-                {/* Wrap protected routes inside ProtectedRoute */}
-                <Route
-                    path="/cart"
-                    element={
-                        <ProtectedRoute>
-                            <Cart />
-                        </ProtectedRoute>
-                    }
-                />
-                <Route
-                    path="/products"
-                    element={
-                        <ProtectedRoute>
-                            <ProductList />
-                        </ProtectedRoute>
-                    }
-                />
+                {/* Cart Route */}
+                <Route path="/cart" element={<Cart />} />
             </Routes>
             <Footer />
         </Router>
@@ -46,4 +31,3 @@ const AppRouter = () => {
 };
 
 export default AppRouter;
-

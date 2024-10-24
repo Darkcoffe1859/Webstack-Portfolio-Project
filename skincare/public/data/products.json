@@ -14,14 +14,14 @@
         "image":" https://images.pexels.com/photos/13794471/pexels-photo-13794471.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id":" Body cream",
+        "id": 3,
         "name": "Barrier Repair",
         "description": "Repair your skin from blemishes, protect your skin and gives a younger look",
         "price": 120.99,
         "image": "https://images.pexels.com/photos/20377252/pexels-photo-20377252/free-photo-of-woman-applying-hydrating-sunscreen-cream-to-mans-back.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id":" Body Cream",
+        "id": 4,
         "name": "Lite",
         "description": "For oily skin",
         "price": 29.99,
@@ -30,357 +30,357 @@
 
 
     {
-        "id": "Body Cream",
+        "id": 5,
         "name": "Loving care",
         "description": "Oriflame body lotion for all skin types",
         "price": 56.00,
         "image": "https://images.pexels.com/photos/5582621/pexels-photo-5582621.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Body Cream",
+        "id": 6,
         "name": "Invisel",
         "description": "Body lotion for a glassy skin and longlasting glow",
         "price": 29.99,
         "image": "https://images.pexels.com/photos/17806614/pexels-photo-17806614/free-photo-of-bottles-of-natural-cosmetics.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Body Cream",
+        "id": 7,
         "name": "Bebark",
         "description": "Oil control body lotion for all age very mild",
         "price": 19.99,
         "image":" https://images.pexels.com/photos/16280923/pexels-photo-16280923/free-photo-of-a-green-bottle-of-hair-care-products.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Body Cream",
+        "id": 8,
         "name": "MashTone",
         "description": "A Ligtening body cream for lighter completions",
         "price": 49.0,
         "image": "https://images.pexels.com/photos/17164328/pexels-photo-17164328/free-photo-of-woman-holding-a-jar-of-skin-care-product-on-her-shoulder.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Body Cream",
+        "id": 9,
         "name": "mi Solo",
         "description": "Finest of natural fruits blended into beauty product for your fresh and  natural looks",
         "price": 56.90,
         "image": "https://images.pexels.com/photos/7161098/pexels-photo-7161098.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Body Cream",
+        "id": 10,
         "name": "El krema",
         "description": "Neurogena Original body cream for skin treatment",
         "price": 200.0,
         "image": "https://images.pexels.com/photos/16678665/pexels-photo-16678665/free-photo-of-hand-cream-in-plastic-tubes.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Body Cream",
+        "id": 11,
         "name": "Semanji",
         "description": "Body treatment cream",
         "price": 19.99,
         "image": "https://images.pexels.com/photos/14473477/pexels-photo-14473477.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": " Body Cream",
+        "id": 12,
         "name": "Moisture Barrier",
         "description": "Mositure barrier cream just as the name",
         "price": 39.0,
         "image": "https://images.pexels.com/photos/13794473/pexels-photo-13794473.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Body Cream",
+        "id": 13,
         "name": "Nature Erva doce",
         "description": "cream that meets your every need",
         "price": 300.45,
         "image": "https://images.pexels.com/photos/17806614/pexels-photo-17806614/free-photo-of-bottles-of-natural-cosmetics.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Body Cream",
+        "id": 14,
         "name": "Saki Salt",
         "description": "For a revitalizing skin",
         "price": 700.0,
         "image": "https://images.pexels.com/photos/9898677/pexels-photo-9898677.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Olive oil Body Cream",
+        "id": 15,
         "name": "Bebark",
         "description": "Made from olive and suitable for dark and caramel skins",
         "price": 37.00,
         "image": "https://images.pexels.com/photos/16280923/pexels-photo-16280923/free-photo-of-a-green-bottle-of-hair-care-products.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Squalane",
+        "id": 16,
         "name": "Oriflame",
         "description": "made from white egg",
         "price": 70.00,
         "image": "https://images.pexels.com/photos/26733174/pexels-photo-26733174/free-photo-of-woman-with-moisturizer-cream.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": " Body Cream",
+        "id": 17,
         "name": "Nora",
         "description": "Neurogena Original body cream for skin treatment",
         "price": 19.99,
         "image": "https://images.pexels.com/photos/7038225/pexels-photo-7038225.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "La Sulzane Saba",
+        "id": 18,
         "name": "Paris Voyage",
         "description": "For dry region suitable for dry skin",
         "price": 29.99,
         "image": "https://images.pexels.com/photos/20560401/pexels-photo-20560401/free-photo-of-la-sultane-de-saba-cosmetic.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Flavoured Gummies",
+        "id": 19,
         "name": "Nora",
         "description": "For dry region suitable for dry skin",
         "price": 19.99,
         "image": "https://images.pexels.com/photos/7038186/pexels-photo-7038186.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Aqualia",
+        "id": 20,
         "name": "Vichy",
         "description": "Rehydrating for light skin",
         "price": 20.99,
         "image": "https://images.pexels.com/photos/18748210/pexels-photo-18748210/free-photo-of-vichy-cream-tube.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Aqua Sensation",
+        "id": 21,
         "name": "Nivea",
         "description": "Canlandirich Baklim Kreme",
         "price": 19.57,
         "image": "https://images.pexels.com/photos/16678687/pexels-photo-16678687/free-photo-of-close-up-of-a-container-with-face-cream.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Cream Gel",
+        "id": 22,
         "name": "Mon reale",
         "description": "Tobacco vanila body gel",
         "price": 56.0,
         "image": "https://images.pexels.com/photos/28891241/pexels-photo-28891241/free-photo-of-mon-reale-tobacco-vanilla-perfumed-shower-gel.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Laavandaer Handcream",
+        "id": 23,
         "name": "SPA Luxetique",
         "description": "Enriched with shear Butter",
         "price": 46.0,
         "image": "https://images.pexels.com/photos/11016996/pexels-photo-11016996.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Vitamin Body oil",
+        "id": 24,
         "name": "Nivea Gold",
         "description": "Glass skin",
         "price": 12.0,
         "image": "https://images.pexels.com/photos/26733177/pexels-photo-26733177/free-photo-of-person-showing-an-oil-product.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "CBD cream",
+        "id": 25,
         "name": "Nora",
         "description": "Acne treatment 500mmg",
         "price": 590.0,
         "image": "https://images.pexels.com/photos/7038155/pexels-photo-7038155.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "The Ordinary",
+        "id": 26,
         "name": "The Ordinary",
         "description": "Clinical Formulations with integrity ",
         "price": 76.44,
         "image": "https://images.pexels.com/photos/7353843/pexels-photo-7353843.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Besoma",
+        "id": 27,
         "name": "Besoma",
         "description": "Bright and friendly good barrier moisturizer",
         "price": 45.99,
         "image": "https://images.pexels.com/photos/15930072/pexels-photo-15930072/free-photo-of-cosmetic-box-on-pink-background.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Ultimate Bleaching Lotion",
+        "id": 28,
         "name": "Skin & Blom",
         "description": "Instant Whitening Lotion spf 70+",
         "price": 29.99,
         "image": "https://images.pexels.com/photos/16655070/pexels-photo-16655070/free-photo-of-branch-with-leaves-near-cosmetics-vial-and-tube.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Calendula Oil",
+        "id": 29,
         "name": "Dr C.Tuna",
         "description": "Face Wash",
         "price": 34.09,
         "image": "https://images.pexels.com/photos/11812426/pexels-photo-11812426.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Lacreme main",
+        "id": 30,
         "name": "Chanel",
         "description": "Portable for all journey",
         "price": 29.99,
         "image": "https://images.pexels.com/photos/17063198/pexels-photo-17063198/free-photo-of-luxury-beauty-product-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Ritual",
+        "id": 31,
         "name": "Relance",
         "description": "Cleansing Gel",
         "price": 19.99,
         "image": "https://images.pexels.com/photos/8709584/pexels-photo-8709584.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Supreme NovAge",
+        "id": 32,
         "name": "Oriflame",
         "description": "Cleansing Gel",
         "price": 78.0,
         "image": "https://images.pexels.com/photos/12455683/pexels-photo-12455683.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Nourish Lotion",
+        "id": 33,
         "name": "Element Apothec",
         "description": "Botanical Infused broad spectrum CBD + CBG Lotion",
         "price": 199.99,
         "image": "https://images.pexels.com/photos/12929037/pexels-photo-12929037.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Skinergy",
+        "id": 34,
         "name": "Skinergy",
         "description": "Body Treatment",
         "price": 73.99,
         "image": "https://images.pexels.com/photos/14438193/pexels-photo-14438193.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Feria-piel",
+        "id": 35,
         "name": "Living Health care",
         "description": "Whitening & depigmentation Cream Glow & Hydrate",
         "price": 78.90,
         "image": "https://images.pexels.com/photos/13779252/pexels-photo-13779252.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=loadhttps://images.pexels.com/photos/13779252/pexels-photo-13779252.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Beauty Sunscreen Broad Spectrum SPH4",
+        "id": 36,
         "name": "Besoma",
         "description": "Antioxidant-infused sunscreen with peptide to protect skin from aging, changes caused by UVA, UVB, Blue light and pollination",
         "price": 99.99,
         "image": "https://images.pexels.com/photos/15930071/pexels-photo-15930071/free-photo-of-close-up-of-a-container-with-sunscreen-on-yellow-background.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "OZ style",
+        "id": 37,
         "name": "Apa de Rozmarin Bio",
         "description": "For a revitalizing skin",
         "price": 39.99,
         "image": "https://images.pexels.com/photos/28758247/pexels-photo-28758247/free-photo-of-natural-rosemary-hair-spray-with-minimalist-design.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "The bridal feast",
+        "id": 38,
         "name": "Bridal glow cream for men & women",
         "description": "Description for product 2",
         "price": 89.99,
         "image": "https://images.pexels.com/photos/10115465/pexels-photo-10115465.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Black Sugar Scrub",
+        "id": 39,
         "name": "Alfredo",
         "description": "Peeling dead skin",
         "price": 37.99,
         "image": "https://images.pexels.com/photos/9155035/pexels-photo-9155035.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Crown Alchemist",
+        "id": 40,
         "name": "Crown Alchemist",
         "description": "Biological Beauty Hydra-repair day cream",
         "price": 299.99,
         "image": "https://images.pexels.com/photos/11464419/pexels-photo-11464419.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Rich Body Care",
+        "id": 41,
         "name": "Neovita Cosmetics",
         "description": "Body Treatment",
         "price": 199.99,
         "image": "https://images.pexels.com/photos/20560400/pexels-photo-20560400/free-photo-of-bottles-of-cosmetics.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Victoria Ice Vanilla",
+        "id": 42,
         "name": "Victoria",
         "description": "Body Moisturiing",
         "price": 659.99,
         "image": "https://images.pexels.com/photos/12616229/pexels-photo-12616229.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Anti-Acne-Toner",
+        "id": 43,
         "name": "Beverly",
         "description": "Anti-Acne with salicvlic & Azealic",
         "price": 89.99,
         "image": "https://images.pexels.com/photos/15072928/pexels-photo-15072928/free-photo-of-bottle-of-toner.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Age Revive Optimals",
+        "id": 44,
         "name": "Oriflame",
         "description": "Night cream",
         "price": 43.99,
         "image": "https://images.pexels.com/photos/19173472/pexels-photo-19173472/free-photo-of-jar-of-cream.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Chilean Rose",
+        "id": 45,
         "name": "Evela",
         "description": "Rose hip oil",
         "price": 192.99,
         "image": "https://images.pexels.com/photos/11757219/pexels-photo-11757219.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Cocoa butter",
+        "id": 46,
         "name": "Ziaja",
         "description": "Creamy Shower Gel",
         "price": 29.99,
         "image": "https://images.pexels.com/photos/23471321/pexels-photo-23471321/free-photo-of-bottle-of-shower-gel.png?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Stretch Mark cream",
+        "id": 47,
         "name": "Dermama",
         "description": "Removes Stubborn stretch marks",
         "price": 180.99,
         "image": "https://images.pexels.com/photos/27688622/pexels-photo-27688622/free-photo-of-skincare-product-dermama-in-bottle-on-white-table.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Dermatology",
+        "id": 48,
         "name": "Dermatology",
         "description": "Light UV Defense skin protecton day cream",
         "price": 69.99,
         "image": "https://images.pexels.com/photos/13779260/pexels-photo-13779260.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Vitamin C",
+        "id": 49,
         "name": "Garnier SkinActive",
         "description": "Protective cream",
         "price": 909.99,
         "image": "https://images.pexels.com/photos/19063232/pexels-photo-19063232/free-photo-of-tube-of-garnier-protective-cream-with-vitamin-c-on-water-surface.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "SPF 50+",
+        "id": 50,
         "name": "maru-derm",
         "description": "Pink tone-up sun cream",
         "price": 29.99,
         "image": "https://images.pexels.com/photos/20896014/pexels-photo-20896014/free-photo-of-close-up-of-a-sunscreen.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "50+ SPF/PA+++",
+        "id": 51,
         "name": "Histolab",
         "description": "Sensitive Skin Sun Block Forever Plus Derma Science",
         "price": 45.99,
         "image": "https://images.pexels.com/photos/11935641/pexels-photo-11935641.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "35+ SPF/PA+++",
+        "id": 52,
         "name": "Histolab",
         "description": "Sunshine Blemish Balm",
         "price": 67.99,
         "image": "https://images.pexels.com/photos/11935640/pexels-photo-11935640.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "SPF 50+",
+        "id": 53,
         "name": "One Thing",
         "description": "Centella Moisturizing Sunscreen",
         "price": 99.99,
         "image": "https://images.pexels.com/photos/19466165/pexels-photo-19466165/free-photo-of-tube-of-sunscreen.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Water-Max",
+        "id": 54,
         "name": "Histolab",
         "description": "Foam cleanse",
         "price": 29.99,
         "image": "https://images.pexels.com/photos/11935643/pexels-photo-11935643.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        "id": "Milk & Honey",
+        "id": 55,
         "name": "Oriflame",
         "description": "Hand cream",
         "price": 48.0,
