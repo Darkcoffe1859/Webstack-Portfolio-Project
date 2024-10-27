@@ -74,8 +74,7 @@
 }
 
 .remove-button {
-  background-color: #dc3545;
-  color: white;
+  color: red;
   border: none;
   padding: 8px;
   border-radius: 5px;
