@@ -7,7 +7,6 @@ This is a Skincare E-commerce Application built using React.js. The app allows u
 Table of Contents
 Features
 Technologies Used
-Installation
 Project Structure
 Firebase Integration
 Usage
@@ -22,37 +21,7 @@ Technologies Used
 React.js: JavaScript library for building the user interface
 Firebase: For authentication and database (Firestore) (optional)
 CSS: For styling
-Font Awesome: For icons
-Local JSON: To populate product data in the app
-Installation
-Clone the Repository
-
-bash
-Copy code
-git clone https://github.com/your-username/skincare.git
-cd skincare
-Install Dependencies
-
-Make sure you have Node.js installed. Then run:
-
-bash
-Copy code
-npm install
-Set Up Firebase (Optional)
-
-Go to Firebase Console.
-Create a new project.
-Set up Firebase Authentication.
-Set up Firestore Database (optional for product storage).
-Copy your Firebase configuration details and replace them in src/firebase.js.
-Run the App
-
-Start the development server:
-
-bash
-Copy code
-npm start
-The app will be available at http://localhost:3000.
+Font Awesome: For
 
 Project Structure
 bash
