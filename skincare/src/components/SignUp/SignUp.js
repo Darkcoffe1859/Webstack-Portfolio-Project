@@ -1,9 +1,10 @@
 // src/components/SignUp/SignUp.js
 
 import React, { useState } from 'react';
-import { auth } from '../../firebase'; // Import auth from your firebase configuration
+import { useNavigate } from 'react-router-dom';
+import { auth } from '../../firebase';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
-import './SignUp.css'; // Make sure to create this CSS file for styling
+import './SignUp.css';
 
 const SignUp = () => {
     const [email, setEmail] = useState('');
@@ -11,6 +12,7 @@ const SignUp = () => {
     const [confirmPassword, setConfirmPassword] = useState('');
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
+    const navigate = useNavigate();
 
     const handleSignUp = async (e) => {
         e.preventDefault();
@@ -24,7 +26,7 @@ const SignUp = () => {
             await createUserWithEmailAndPassword(auth, email, password);
             setSuccess("Account created successfully!");
             setError(''); // Clear any existing errors
-            // Optionally, you can redirect the user or clear the form here
+            navigate('/product'); // Redirect to product page upon successful signup
         } catch (error) {
             setError(error.message);
         }
@@ -67,4 +69,3 @@ const SignUp = () => {
 };
 
 export default SignUp;
-
