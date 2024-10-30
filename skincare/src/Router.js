@@ -9,7 +9,8 @@ import SignIn from './components/SignIn/SignIn';
 import SignUp from './components/SignUp/SignUp';
 import Cart from './components/Cart/Cart';
 import ProductList from './components/ProductList/ProductList';
-import PrivateRoute from './components/PrivateRoute'; // Import PrivateRoute
+import PrivateRoute from './components/PrivateRoute';
+import Testimonials from './components/Testimonials/Testimonials'; // Import Testimonials component
 
 const AppRouter = () => {
     return (
@@ -18,47 +19,55 @@ const AppRouter = () => {
             <Routes>
                 <Route path="/signin" element={<SignIn />} />
                 <Route path="/signup" element={<SignUp />} />
-                
+
                 {/* Protected routes */}
-                <Route 
-                    path="/" 
+                <Route
+                    path="/"
                     element={
                         <PrivateRoute>
                             <Home />
                         </PrivateRoute>
-                    } 
+                    }
                 />
-                <Route 
-                    path="/products" 
+                <Route
+                    path="/products"
                     element={
                         <PrivateRoute>
                             <ProductList />
                         </PrivateRoute>
-                    } 
+                    }
                 />
-                <Route 
-                    path="/about" 
+                <Route
+                    path="/about"
                     element={
                         <PrivateRoute>
                             <About />
                         </PrivateRoute>
-                    } 
+                    }
                 />
-                <Route 
-                    path="/contact" 
+                <Route
+                    path="/contact"
                     element={
                         <PrivateRoute>
                             <Contact />
                         </PrivateRoute>
-                    } 
+                    }
                 />
-                <Route 
-                    path="/cart" 
+                <Route
+                    path="/cart"
                     element={
                         <PrivateRoute>
                             <Cart />
                         </PrivateRoute>
-                    } 
+                    }
+                />
+                <Route
+                    path="/testimonials"
+                    element={
+                        <PrivateRoute>
+                            <Testimonials />
+                        </PrivateRoute>
+                    }
                 />
             </Routes>
             <Footer />
